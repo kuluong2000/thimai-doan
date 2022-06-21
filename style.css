@@ -1,7 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+input,
+option,
+button,
+select {
+  font-family: "Poppins", sans-serif;
 }
 .container {
   width: 1170px;
@@ -282,5 +292,101 @@
   padding: 10px 20px;
   color: white;
   background-color: #5bc0de;
+  cursor: pointer;
+}
+
+/* form đăng ký cứu trợ */
+.form-group {
+  /* background-color: #eee; */
+}
+.form-group-main h2 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.form-group-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 20px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #3333;
+}
+.form-item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.form-item label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.form-item select,
+.form-item input {
+  border: 1px solid #eee;
+  border-radius: 5px;
+  outline: none;
+  padding: 7px;
+  width: 100%;
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+}
+.form-group-content h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.form-group-list {
+  display: flex;
+  gap: 0 30px;
+  align-items: center;
+}
+.form-group-col {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  width: 200px;
+}
+.form-group-col select:not(:last-child),
+.form-group-col input:not(:last-child) {
+  margin-bottom: 10px;
+}
+.form-group-col p {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.form-group-col select,
+.form-group-col input {
+  border-radius: 5px;
+  border: 1px solid #eee;
+  padding: 7px;
+  outline: none;
+}
+
+.form-group-add {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #5bc0de;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.form-group-submit {
+  display: block;
+  margin: 10px auto 0;
+  padding: 10px 20px;
+  width: 200px;
+  background-color: #5bc0de;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
   cursor: pointer;
 }
