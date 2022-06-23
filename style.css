@@ -397,3 +397,99 @@ select {
   border-radius: 5px;
   cursor: pointer;
 }
+/* danh sách cứu trợ */
+.relief-list {
+  margin-top: 20px;
+}
+
+.relief-item {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #eee;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+.relief-title {
+  width: 100%;
+  text-align: center;
+  background-color: #ffcccc;
+  padding: 5px 0;
+  font-weight: 500;
+  color: white;
+}
+.relief-info {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 7px;
+}
+.relief-info-desc {
+  width: 60%;
+}
+.relief-info button {
+  border: none;
+  outline: none;
+  background-color: #5bc0de;
+  color: white;
+  font-size: 16px;
+  padding: 5px 7px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* puclic details */
+.public-detail {
+  margin-top: 20px;
+}
+.public-detail-top {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.public-detail-title {
+  font-weight: 500;
+}
+.public-detail-sub {
+  font-weight: 400;
+}
+
+.public-detail-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.public-detail-box-col {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.public-detail-box-col:not(:first-child) {
+  margin-left: 20px;
+}
+.public-detail-box-col button {
+  color: white;
+  background-color: #5bc0de;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px;
+}
+.public-detail-table,
+tr,
+td,
+th {
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  padding: 10px 10px;
+  text-align: center;
+}
+.public-detail-table thead {
+  color: white;
+  background-color: #5bc0de;
+}
+.public-detail-table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
